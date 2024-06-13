@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #fac5c5;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a4bd 3px solid;
+        }
+        header a, header a:visited {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #f0d5d5;
+            margin-bottom: 20px;
+        }
+        .main h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .section p {
+            color: #666;
+        }
+        .photos {
+            display: flex;
+            justify-content: space-around;
+        }
+        .photos img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #d2c7c7;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .contact-form input[type="submit"] {
+            background: #333;
+            color: #fce2e2;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Me</h1>
+        </div>
+    </header>
+    <div class="container main">
+        <section class="section">
+            <h2>Introduction</h2>
+            <p>Hello! I am Gurleen Kaur, the creator of this website. Welcome to my personal space on the internet where I share my journey, skills, and projects.</p>
+        </section>
+        <section class="section">
+            <h2>Background</h2>
+            <p>I hold a degree in Computer Engineering Technician from Northern College of Pures. Additionally, I have completed several web development courses including [Cisco] and [IT essential].</p>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <p>I am proficient in HTML, CSS, JavaScript, and other IT skills including software engineering. I am passionate about creating interactive and responsive web designs.</p>
+        </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ul>
+                <li><strong>Project 1:</strong> Bride shades project </li>
+                <li><strong>Project 2:</strong> Aman sparkles project </li>
+                <li><strong>Project 3:</strong> JG saris of project </li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Photos</h2>
+            <h3>Personal</h3>
+            <div class="photos">
+                <img src="c:/Users/aulak/Downloads/Guri png.jpg" alt="Personal Photo 1">
+                <img src="c:/Users/aulak/OneDrive/Pictures/Guri png.jpg" alt="Personal Photo 2">
+            </div>
+            <h3>Team</h3>
+            <div class="photos">
+                <img src="c:/Users/aulak/OneDrive/Pictures/WhatsApp Image 2024-06-13 at 16.14.23_1f105e12.jpg" alt="Team Photo 3">
+                <img src="c:/Users/aulak/OneDrive/Pictures/WhatsApp Image 2024-06-13 at 16.15.22_8a70d0cf.jpg" alt="Team Photo 4">
+            </div>
+        </section>
+        <section class="section">
+            <h2>Contact Information</h2>
+            <p>If you wish to get in touch with me, please fill out the contact form below:</p>
+            <form class="contact-form" action="mailto:aulakhgurleenkaur75@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Gurleen kaur 6474647603" required>
+                <input type="email" name="email" placeholder="aulakhgurleenkaur75@.com" required>
+                <textarea name="message" rows="5" placeholder="Join me to assist yourself to make your dreams true" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
